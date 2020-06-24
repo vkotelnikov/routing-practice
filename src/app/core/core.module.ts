@@ -15,11 +15,12 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { CoreRoutingModule } from './core-routing.module';
 import { MatDividerModule } from '@angular/material/divider';
+import { SideMenuComponent } from './side-menu/side-menu.component';
 
 
 
 @NgModule({
-  declarations: [IndexComponent, GalleryComponent, SettingsComponent, AboutComponent],
+  declarations: [IndexComponent, GalleryComponent, SettingsComponent, AboutComponent, SideMenuComponent],
   imports: [
     CoreRoutingModule,
     CommonModule,
